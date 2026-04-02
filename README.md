@@ -36,7 +36,18 @@ This project demonstrates a fully built Security Operations Center (SOC) lab usi
 - Analyzed C2 telemetry and attacker behavior
 
 ## Screenshots & Evidence
-## Screenshots & Evidence
+
+### SOC Architecture
+![Architecture](architecture/soc-architecture.png)
+
+### SSH Brute Force Detection
+![SSH](dashboards/ssh-bruteforce-dashboard.png)
+
+### RDP Activity Monitoring
+![RDP](dashboards/rdp-dashboard.png)
+
+### C2 Detection
+![C2](dashboards/c2-detection.png)
 
 This section contains visual evidence demonstrating detection engineering, threat hunting,
 security monitoring, and incident response workflows implemented in the MYDFIR SOC lab.
