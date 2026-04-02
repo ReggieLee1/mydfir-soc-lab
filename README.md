@@ -25,6 +25,15 @@ This project demonstrates a fully built Security Operations Center (SOC) lab usi
 - RDP brute force attack
 - Command & Control (C2) using Mythic
 
+  ## Attack Flow
+
+1. Attacker performs brute force (SSH/RDP)
+2. Gains access
+3. Establishes C2 communication (Mythic)
+4. Generates telemetry in SIEM
+5. Alerts triggered
+6. Investigation performed
+
 ## Detection & Monitoring
 - Created alerts for brute force login attempts
 - Built dashboards for authentication monitoring
